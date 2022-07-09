@@ -1,0 +1,46 @@
+1) Input two integers (store them in an int variable) and find their sum and difference.
+
+2) Take two integer inputs and store them in variables x and y
+  Calculate Area of Rectangle
+  Find perimeter of rectangle
+
+3) Write a program to convert Fahrenheit into Celsius. Take Fahrenheit value in a double variable and print the answer in Celsius.
+
+4) Take two integers as inputs and add the last digits of those numbers and then print  the final output. Eg x=2345 and y=4567, the last digit of 2345 i.e 5 and last digit of 4567 i.e 7, the result should then be 5+7 which gives 12.
+
+5) Find the answer of the following expressions
+  int x=2+3
+  int x =3+8-29
+  int x =4 + 5.2 - 8.3 + 9.2 //Tell them about the error of lossy conversion
+  double x =4.1 + 8.9 + 3.5 
+  int x= 4 * 3 / 8 + 2.5 * 2 //Tell them about the error of lossy conversion
+  double x=22 + 4 * 2	
+  double x=8 / 5 + 13 / 2
+  double x=8.0/5 + 13/2
+  double x=8.0/5 + 13.0/2
+  int x= 392 / 10 % 10 / 2	
+  int x= 39%2*3
+ 
+
+6) Find what would get printed for the following
+    System.out.println(22 + 4 * 2)
+    System.out.println(8 / 5 + 13 / 2)
+    System.out.println(8.0/5 + 13/2)
+    System.out.println(8.0/5 + 13.0/2)
+
+7) Store these expressions inside a Boolean variable ans. Print their outputs true or false accordingly
+    Eg. boolean ans = 2+3>5, then System.out.println(ans)
+    40+5 > 72
+    78+93 >= 100
+    40+3 < 50
+    90+91 <= 181
+    5==5
+    15==20
+    15==3*5
+    15==3*6
+    3!=3
+    4!=10
+    3*4 + 8*9 == 45
+    2*3 + 4*5 != 5*4 + 7/5
+    13/2==13.0/2
+    15.0/2 + 7 == 14.5
