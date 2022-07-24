@@ -1,0 +1,2 @@
+Study about while loop
+Practice questions on loops
