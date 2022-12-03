@@ -1,0 +1,24 @@
+ public static int getNode(SinglyLinkedListNode head, int N) {
+        
+    // Write your code here
+        N+=1;
+          
+        SinglyLinkedListNode fast=head;
+        SinglyLinkedListNode slow=head;
+        
+        
+        for(int i=1;i<=N;i++){
+            fast=fast.next;
+        }
+        
+        
+        while(fast!=null){
+            slow=slow.next;
+            fast=fast.next;
+        }
+        
+        
+        return slow.data;
+        
+
+    }
